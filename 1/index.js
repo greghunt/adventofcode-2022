@@ -13,4 +13,5 @@ const totals = input.split(os.EOL + os.EOL)
 console.log("Part I", totals[0]);
 
 // Part 2
+console.log(totals.slice(0, 3))
 console.log("Part II", totals.slice(0, 3).reduce((i, j) => i + j));
